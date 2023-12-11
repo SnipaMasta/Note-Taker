@@ -20,3 +20,4 @@ router.post('/api/notes', (req, res) => {
     fs.writeFileSync('db/db.json', JSON.stringify(dbJson))
     res.json(dbJson)
 })
+
